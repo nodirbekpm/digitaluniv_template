@@ -1,0 +1,734 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DigitalUniv - Unified Digital Hub for Higher Education</title>
+    <meta name="description" content="Streamline university operations with our comprehensive platform. Manage KPIs, library operations, and academic workflows in one unified system.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-brand">
+          <i class="fas fa-university"></i>
+          <span>DigitalUniv</span>
+        </div>
+        <div class="nav-menu" id="nav-menu">
+          <a href="#hero" class="nav-link">Home</a>
+          <a href="#solutions" class="nav-link">Features</a>
+          <a href="#pricing" class="nav-link">Pricing</a>
+          <a href="#team" class="nav-link">Team</a>
+          <a href="#contact" class="nav-link">Contact</a>
+          <a href="#hero" class="btn btn-primary">Book Demo</a>
+        </div>
+        <div class="nav-toggle" id="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">Digitally Unite Your University</h1>
+            <h2 class="hero-subtitle">Control KPI tracking, library management, and educational workflows through one platform.</h2>
+            <p class="hero-description">Transform how your university operates—digitally, efficiently, and all in one place.</p>
+            <div class="hero-cta">
+              <button class="btn btn-primary btn-lg">Book a Demo</button>
+              <button class="btn btn-secondary btn-lg">Learn More</button>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="dashboard-mockup">
+              <div class="mockup-header">
+                <div class="mockup-dots">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <div class="mockup-content">
+                <div class="mockup-sidebar">
+                  <div class="sidebar-item active">
+                    <i class="fas fa-chart-line"></i>
+                    <span>DU-KPI</span>
+                  </div>
+                  <div class="sidebar-item">
+                    <i class="fas fa-book"></i>
+                    <span>DU-Lib</span>
+                  </div>
+                  <div class="sidebar-item">
+                    <i class="fas fa-project-diagram"></i>
+                    <span>DU-Registration</span>
+                  </div>
+                </div>
+                <div class="mockup-main">
+                  <div class="chart-container">
+                    <div class="chart-bar" style="height: 60%"></div>
+                    <div class="chart-bar" style="height: 80%"></div>
+                    <div class="chart-bar" style="height: 45%"></div>
+                    <div class="chart-bar" style="height: 95%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pain Points Section -->
+    <section id="pain-points" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Top 3 Pain Points in Higher Education</h2>
+          <p class="section-subtitle">Understanding the challenges universities face every day</p>
+        </div>
+        <div class="pain-points-grid">
+          <div class="pain-point-card" data-aos="fade-up">
+            <div class="card-icon">
+              <i class="fas fa-chart-bar"></i>
+            </div>
+            <h3 class="card-title">Subjective KPI Evaluations</h3>
+            <p class="card-description">Manual scoring and poor integration lead to unfair, time-consuming, and demotivating assessments</p>
+          </div>
+          <div class="pain-point-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-icon">
+              <i class="fas fa-book-open"></i>
+            </div>
+            <h3 class="card-title">Inefficient Library Access</h3>
+            <p class="card-description">Paper-based workflows and limited digital access slow down resource usage and frustrate users.</p>
+          </div>
+          <div class="pain-point-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-icon">
+              <i class="fas fa-sync-alt"></i>
+            </div>
+            <h3 class="card-title">Inefficient Academic Administration</h3>
+            <p class="card-description">Manual handling of subject differences and re-education processes leads to delays, miscommunication, and inefficient use of time and staff - frustrating students, managers, and administrators alike.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Our Modules</h2>
+          <p class="section-subtitle">Comprehensive solutions for every university challenge</p>
+        </div>
+        <div class="solutions-grid">
+          <div class="solution-card" data-aos="fade-up">
+            <div class="solution-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3 class="solution-title">DU-KPI</h3>
+            <p class="solution-description">Automates staff performance tracking with data integration and clear feedback.</p>
+            <ul class="solution-features">
+              <li>Automatic data collection</li>
+              <li>Feedback inclusion</li>
+              <li>Transparent reports</li>
+            </ul>
+          </div>
+          <div class="solution-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="solution-icon">
+              <i class="fas fa-book"></i>
+            </div>
+            <h3 class="solution-title">DU-Lib</h3>
+            <p class="solution-description">Automates and speeds up library processes with digital resource access and real-time monitoring.</p>
+            <ul class="solution-features">
+              <li>Fast book handling via QR and barcode</li>
+              <li>Integration with user databases</li>
+              <li>Digital tracking and overdue alerts</li>
+            </ul>
+          </div>
+          <div class="solution-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="solution-icon">
+              <i class="fas fa-project-diagram"></i>
+            </div>
+            <h3 class="solution-title">DU-Registration</h3>
+            <p class="solution-description">Automated system to quickly identify course differences for transfer students, digitally manage teachers’ work plans, and streamline the retake process for students.</p>
+            <ul class="solution-features">
+              <li>Automatic course difference detection</li>
+              <li>Digital management of teacher work plans</li>
+              <li>Electronic retake process automation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Traction Section -->
+    <section id="traction" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Our Traction</h2>
+          <p class="section-subtitle">Real numbers from our growing platform</p>
+        </div>
+        <div class="traction-grid">
+          <div class="stat-card" data-aos="fade-up">
+            <div class="stat-number" data-count="6">0</div>
+            <div class="stat-label">Partner Universities</div>
+          </div>
+          <div class="stat-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="stat-number" data-count="25000">0</div>
+            <div class="stat-label">QR-Coded Books</div>
+          </div>
+          <div class="stat-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="stat-number" data-count="180">0</div>
+            <div class="stat-suffix">million UZS</div>
+            <div class="stat-label">MRR (Pilot)</div>
+          </div>
+          <div class="stat-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="stat-number" data-count="12000">0</div>
+            <div class="stat-label">Active Users</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Competitor Analysis Section -->
+    <section id="competitor" class="section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Why We're Different</h2>
+          <p class="section-subtitle">See how we compare to other solutions</p>
+        </div>
+        <div class="comparison-table-wrapper" data-aos="fade-up">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>Feature/Module</th>
+                <th class="highlight">Digital Univ</th>
+                <th>HEMIS</th>
+                <th>KPI</th>
+                <th>Armat</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Automatic detection of course differences</td>
+                <td class="highlight"><i class="fas fa-check"></i> Yes</td>
+                <td><i class="fas fa-times"></i> No</td>
+                <td><i class="fas fa-times"></i> No</td>
+                <td><i class="fas fa-times"></i> No</td>
+              </tr>
+              <tr>
+                <td>Workload formation and distribution</td>
+                <td class="highlight"><i class="fas fa-check"></i> Yes</td>
+                <td><i class="fas fa-minus"></i> Partial</td>
+                <td><i class="fas fa-check"></i> Yes</td>
+                <td><i class="fas fa-times"></i> No</td>
+              </tr>
+              <tr>
+                <td>Automation of the retake process</td>
+                <td class="highlight"><i class="fas fa-check"></i> Yes</td>
+                <td><i class="fas fa-minus"></i> Partial</td>
+                <td><i class="fas fa-times"></i> No</td>
+                <td><i class="fas fa-times"></i> No</td>
+              </tr>
+              <tr>
+                <td>Electronic storage of student and staff documents</td>
+                <td class="highlight"><i class="fas fa-check"></i> Yes</td>
+                <td><i class="fas fa-check"></i> Yes</td>
+                <td><i class="fas fa-check"></i> Yes</td>
+                <td><i class="fas fa-times"></i> No</td>
+              </tr>
+              <tr>
+                <td>Digital library (QR codes, barcodes, video lessons)</td>
+                <td class="highlight"><i class="fas fa-check"></i> Yes</td>
+                <td><i class="fas fa-times"></i> No</td>
+                <td><i class="fas fa-times"></i> No</td>
+                <td><i class="fas fa-minus"></i> Partial</td>
+              </tr>
+              <tr>
+                <td>KPI system (automatic evaluation, student feedback, GPA)</td>
+                <td class="highlight"><i class="fas fa-check"></i> Yes</td>
+                <td><i class="fas fa-times"></i> No</td>
+                <td><i class="fas fa-minus"></i> Partial</td>
+                <td><i class="fas fa-times"></i> No</td>
+              </tr>
+              <tr>
+                <td>Notifications via Telegram integration</td>
+                <td class="highlight"><i class="fas fa-check"></i> Yes</td>
+                <td><i class="fas fa-times"></i> No</td>
+                <td><i class="fas fa-times"></i> No</td>
+                <td><i class="fas fa-times"></i> No</td>
+              </tr>
+              <tr>
+                <td>Role-based access control</td>
+                <td class="highlight"><i class="fas fa-check"></i> Yes</td>
+                <td><i class="fas fa-check"></i> Yes</td>
+                <td><i class="fas fa-check"></i> Yes</td>
+                <td><i class="fas fa-check"></i> Yes</td>
+              </tr>
+              <tr>
+                <td>Interactive graphical reports</td>
+                <td class="highlight"><i class="fas fa-check"></i> Yes</td>
+                <td><i class="fas fa-check"></i> Yes</td>
+                <td><i class="fas fa-check"></i> Yes</td>
+                <td><i class="fas fa-times"></i> No</td>
+              </tr>
+              <tr>
+                <td>Automatic GPA and result calculation</td>
+                <td class="highlight"><i class="fas fa-check"></i> Yes</td>
+                <td><i class="fas fa-check"></i> Yes</td>
+                <td><i class="fas fa-minus"></i> Partial</td>
+                <td><i class="fas fa-times"></i> No</td>
+              </tr>
+              <tr>
+                <td>Creation and approval of staff work plans</td>
+                <td class="highlight"><i class="fas fa-check"></i> Yes</td>
+                <td><i class="fas fa-minus"></i> Partial</td>
+                <td><i class="fas fa-minus"></i> Partial</td>
+                <td><i class="fas fa-times"></i> No</td>
+              </tr>
+              <tr>
+                <td>Automatic timetable generation</td>
+                <td class="highlight"><i class="fas fa-check"></i> Yes</td>
+                <td><i class="fas fa-check"></i> Yes</td>
+                <td><i class="fas fa-times"></i> No</td>
+                <td><i class="fas fa-times"></i> No</td>
+              </tr>
+              <tr>
+                <td>Assessment based on student or staff feedback</td>
+                <td class="highlight"><i class="fas fa-check"></i> Yes</td>
+                <td><i class="fas fa-times"></i> No</td>
+                <td><i class="fas fa-times"></i> No</td>
+                <td><i class="fas fa-times"></i> No</td>
+              </tr>
+              <tr>
+                <td>Performance-based financial incentives system</td>
+                <td class="highlight"><i class="fas fa-check"></i> Yes</td>
+                <td><i class="fas fa-times"></i> No</td>
+                <td><i class="fas fa-check"></i> Yes</td>
+                <td><i class="fas fa-times"></i> No</td>
+              </tr>
+              <tr>
+                <td>Mechanism to detect false information in assessments</td>
+                <td class="highlight"><i class="fas fa-check"></i> Yes</td>
+                <td><i class="fas fa-times"></i> No</td>
+                <td><i class="fas fa-times"></i> No</td>
+                <td><i class="fas fa-times"></i> No</td>
+              </tr>
+            </tbody>
+          </table>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Choose Your Plan</h2>
+          <p class="section-subtitle">Flexible pricing for universities of all sizes</p>
+        </div>
+        <div class="pricing-grid">
+          <!-- <div class="pricing-card" data-aos="fade-up">
+            <div class="pricing-header">
+              <h3 class="pricing-title">Basic</h3>
+              <div class="pricing-price">
+                <span class="price-amount">25</span>
+                <span class="price-currency">million UZS</span>
+                <span class="price-period">/ month</span>
+              </div>
+              <p class="pricing-subtitle">≤ 10,000 students</p>
+            </div>
+            <ul class="pricing-features">
+              <li><i class="fas fa-check"></i> DU-KPI Module</li>
+              <li><i class="fas fa-check"></i> DU-Lib Module</li>
+              <li><i class="fas fa-check"></i> DU-Registration Module</li>
+              <li><i class="fas fa-check"></i> Basic Support</li>
+              <li><i class="fas fa-check"></i> Email Support</li>
+            </ul>
+            <button class="btn btn-outline-primary btn-full">Get Started</button>
+          </div> -->
+          <div class="pricing-card featured" data-aos="fade-up" data-aos-delay="100">
+            <div class="pricing-badge">Most Popular</div>
+            <div class="pricing-header">
+              <h3 class="pricing-title">Standard</h3>
+              <div class="pricing-price">
+                <span class="price-amount">60</span>
+                <span class="price-currency">million UZS</span>
+                <span class="price-period">/ month</span>
+              </div>
+              <p class="pricing-subtitle">10,000 – 30,000 students</p>
+            </div>
+            <ul class="pricing-features">
+              <li><i class="fas fa-check"></i> KPI Module – 25 million UZS / month</li>
+              <li><i class="fas fa-check"></i> Automates performance evaluation, workload planning, and reporting</li>
+              <li><i class="fas fa-check"></i> Registration Module – 20 million UZS / month</li>
+              <li><i class="fas fa-check"></i> Automates credit transfer, workload distribution, re-study process, and student document management</li>
+              <li><i class="fas fa-check"></i> LIB Module – 15 million UZS / month</li>
+              <li><i class="fas fa-check"></i> Digital library with QR-based book linking and statistical analysis</li>
+            </ul>
+            
+            <button class="btn btn-primary btn-full">Book Demo</button>
+          </div>
+          <div class="pricing-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="pricing-header">
+              <h3 class="pricing-title">Custom</h3>
+              <div class="pricing-price">
+                <span class="price-amount">Contact</span>
+                <span class="price-currency">us</span>
+              </div>
+              <p class="pricing-subtitle">30,000+ students</p>
+            </div>
+            <ul class="pricing-features">
+              <li><i class="fas fa-check"></i> KPI Module – 35 million UZS / month</li>
+              <li><i class="fas fa-check"></i> Automates performance evaluation, workload planning, schedules, and reports</li>
+              <li><i class="fas fa-check"></i> Customizable to university-specific KPI standards</li>
+            
+              <li><i class="fas fa-check"></i> Registration Module – 30 million UZS / month</li>
+              <li><i class="fas fa-check"></i> Automatic credit transfer analysis, re-study management, workload distribution, and student document digitization</li>
+            
+              <li><i class="fas fa-check"></i> LIB Module – 25 million UZS / month</li>
+              <li><i class="fas fa-check"></i> Advanced digital library with QR/barcode book linking, video lectures, document repository, and deep usage analytics</li>
+            </ul>
+            
+            <button class="btn btn-outline-primary btn-full">Contact Sales</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Market Size Section -->
+    <section id="market" class="section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Market Size</h2>
+          <p class="section-subtitle">Massive opportunity in the CIS education technology market</p>
+        </div>
+        <div class="market-grid">
+          <div class="market-card" data-aos="fade-up">
+            <div class="market-icon">
+              <i class="fas fa-globe"></i>
+            </div>
+            <div class="market-value">1.2 trillion UZS</div>
+            <div class="market-label">TAM</div>
+          </div>
+          <div class="market-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="market-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="market-value">350 billion UZS</div>
+            <div class="market-label">SAM</div>
+          </div>
+          <div class="market-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="market-icon">
+              <i class="fas fa-building"></i>
+            </div>
+            <div class="market-value">70 billion UZS</div>
+            <div class="market-label">SOM</div>
+          </div>
+          <div class="market-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="market-icon">
+              <i class="fas fa-flag"></i>
+            </div>
+            <div class="market-value">350+</div>
+            <div class="market-label">CIS Universities</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Meet the Team</h2>
+          <p class="section-subtitle">Experienced professionals driving innovation in EdTech</p>
+        </div>
+        <div class="team-grid">
+          <!-- CEO -->
+          <div class="team-card" data-aos="fade-up">
+            <div class="team-avatar">
+              <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400" alt="CEO">
+            </div>
+            <h3 class="team-name">Sh. X.</h3>
+            <p class="team-role">CEO</p>
+            <p class="team-bio">10+ years EdTech leadership; spearheaded automated KPI systems</p>
+            <a href="#" class="team-social"><i class="fab fa-linkedin"></i></a>
+          </div>
+    
+          <!-- CTO -->
+          <div class="team-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-avatar">
+              <img src="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400" alt="CTO">
+            </div>
+            <h3 class="team-name">N. E.</h3>
+            <p class="team-role">CTO</p>
+            <p class="team-bio">Expert in React, Django, and microservices architecture</p>
+            <a href="#" class="team-social"><i class="fab fa-linkedin"></i></a>
+          </div>
+    
+          <!-- CPO -->
+          <div class="team-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-avatar">
+              <img src="https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=400" alt="CPO">
+            </div>
+            <h3 class="team-name">O. M.</h3>
+            <p class="team-role">CPO</p>
+            <p class="team-bio">Product strategist and UX designer specializing in university workflows</p>
+            <a href="#" class="team-social"><i class="fab fa-linkedin"></i></a>
+          </div>
+    
+          <!-- PM -->
+          <div class="team-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-avatar">
+              <img src="https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Project Manager">
+            </div>
+            <h3 class="team-name">M. T.</h3>
+            <p class="team-role">Project Manager</p>
+            <p class="team-bio">Agile practitioner ensuring timely delivery and stakeholder alignment</p>
+            <a href="#" class="team-social"><i class="fab fa-linkedin"></i></a>
+          </div>
+    
+          <!-- QA Lead -->
+          <div class="team-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-avatar">
+              <img src="https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=400" alt="QA Lead">
+            </div>
+            <h3 class="team-name">J. H.</h3>
+            <p class="team-role">QA Lead</p>
+            <p class="team-bio">Seasoned QA engineer handling automation tests and UAT</p>
+            <a href="#" class="team-social"><i class="fab fa-linkedin"></i></a>
+          </div>
+    
+          <!-- DevOps Engineer -->
+          <div class="team-card" data-aos="fade-up" data-aos-delay="500">
+            <div class="team-avatar">
+              <img src="https://images.pexels.com/photos/3184405/pexels-photo-3184405.jpeg?auto=compress&cs=tinysrgb&w=400" alt="DevOps Engineer">
+            </div>
+            <h3 class="team-name">L. K.</h3>
+            <p class="team-role">DevOps Engineer</p>
+            <p class="team-bio">Infrastructure specialist automating CI/CD and cloud deployment</p>
+            <a href="#" class="team-social"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Investment Section -->
+    <section id="investment" class="section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Investment</h2>
+          <p class="section-subtitle">Raising $350k for 18-month runway</p>
+        </div>
+        <div class="investment-content" data-aos="fade-up">
+          <div class="investment-chart">
+            <div class="chart-wrapper">
+              <div class="pie-chart">
+                <div class="pie-segment development" style="--percentage: 60"></div>
+                <div class="pie-segment marketing" style="--percentage: 25"></div>
+                <div class="pie-segment operations" style="--percentage: 15"></div>
+              </div>
+            </div>
+            <div class="chart-legend">
+              <div class="legend-item">
+                <span class="legend-color development"></span>
+                <span>Development (60%)</span>
+              </div>
+              <div class="legend-item">
+                <span class="legend-color marketing"></span>
+                <span>Sales & Marketing (25%)</span>
+              </div>
+              <div class="legend-item">
+                <span class="legend-color operations"></span>
+                <span>Operations (15%)</span>
+              </div>
+            </div>
+          </div>
+          <div class="investment-details">
+            <h3>Fund Allocation</h3>
+            <p>60% for development, 25% for sales & marketing, 15% for operations.</p>
+            <ul class="investment-list">
+              <li>Expand development team</li>
+              <li>Accelerate product roadmap</li>
+              <li>Scale marketing efforts</li>
+              <li>Enhance customer support</li>
+            </ul>
+            <button class="btn btn-primary">Request Full Deck</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">What Our Clients Say</h2>
+          <p class="section-subtitle">Real feedback from university administrators</p>
+        </div>
+        <div class="testimonials-slider" data-aos="fade-up">
+          <div class="testimonial-card active">
+            <div class="testimonial-content">
+              <div class="testimonial-quote">
+                "DigitalUniv transformed our KPI tracking completely. What used to take weeks now happens automatically."
+              </div>
+              <div class="testimonial-author">
+                <img src="https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Dr. A. N.">
+                <div class="author-info">
+                  <div class="author-name">Dr. A. N.</div>
+                  <div class="author-title">Dean of Academic Affairs, University X</div>
+                </div>
+              </div>
+              <div class="testimonial-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-nav">
+            <button class="nav-dot active"></button>
+            <button class="nav-dot"></button>
+            <button class="nav-dot"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">Get answers to common questions about our platform</p>
+        </div>
+        <div class="faq-container" data-aos="fade-up">
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>What do your pricing plans include?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>All plans come with DU-KPI, DU-Lib, DU-Registration. Intermediate adds DU-Insight and standard support. Custom offers dedicated resources.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>How long does it take to integrate?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Typical integration takes 2–3 weeks, including data migration and staff training.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Is my data secure?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>We use AES-256 encryption at rest, TLS 1.2+ in transit, and GDPR-compliant processes.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Do you offer on-premise deployment?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Yes, the Custom Plan includes on-premise install and server management.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>What support channels are available?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Basic support is email only; Intermediate adds chat; Custom includes 24/7 SLAs.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Can I switch plans later?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Absolutely—upgrade or downgrade at any time with prorated billing.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <div class="footer-brand">
+              <i class="fas fa-university"></i>
+              <span>DigitalUniv</span>
+            </div>
+            <p class="footer-tagline">The Unified Digital Hub for Higher Education</p>
+            <div class="footer-social">
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-telegram"></i></a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#solutions">Features</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#team">Team</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="#">Documentation</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">API</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contact Info</h4>
+            <div class="contact-info">
+              <p><i class="fas fa-phone"></i> +998 90 123-45-67</p>
+              <p><i class="fas fa-envelope"></i> support@digitaluniv.uz</p>
+              <p><i class="fas fa-map-marker-alt"></i> Tashkent, Uzbekistan</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 DigitalUniv.uz. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
